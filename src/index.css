@@ -1,0 +1,51 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.block {
+  display: block;
+  margin-top: 10px;
+}
+
+.header {
+  background-color: orangered;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 10px;
+}
+
+.page-title {
+  color: white;
+}
+
+.search-container {
+  margin-left: auto;
+  margin: 20px;
+}
+
+.search-container input {
+  border-radius: 4px;
+  font-size: 22px;
+  padding: 5px;
+  margin-right: 10px;
+}
+
+.search-container > .button {
+  width: 135px;
+  border-radius: 4px;
+  font-size: 18px;
+  background-color: lightgreen;
+  margin-left: 10px;
+  border: 1px solid #ddd;
+  padding: 5px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.home-widget {
+  /* display: flex;
+  align-items: center; */
+}
